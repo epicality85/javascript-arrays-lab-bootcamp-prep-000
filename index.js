@@ -32,7 +32,6 @@ function destructivelyRemoveFirstKitten()
 function appendKitten(name)
 {
   var retArray = kittens.slice(0)
-  retArray.shift(name)
   return retArray
 }
 
