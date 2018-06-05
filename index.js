@@ -15,4 +15,10 @@ function destructivelyPrependKitten(name)
 }
 
 // removes the last kitten from the kittens array:
-function 
+function destructivelyRemoveLastKitten()
+{
+  kittens.pop()
+  return kittens
+}
+
+// 
