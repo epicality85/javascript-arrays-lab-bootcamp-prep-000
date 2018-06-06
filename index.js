@@ -42,4 +42,5 @@ function prependKitten(name)
   return retArray
 }
 
-// 
+// removes the last kitten in the kittens array andreturns a new array, leaving the kittens array unchanged:
+function 
